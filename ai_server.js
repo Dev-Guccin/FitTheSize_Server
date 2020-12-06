@@ -4,7 +4,7 @@ app.use(express.json())
 
 app.post('/', function(req,res){
     console.log('AI server received : ',req.body)
-    res.send('Here is AI server!')
+    res.send('3')
 })
 
 const PORT = 3001
